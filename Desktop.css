@@ -1,0 +1,149 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+/* navbar deign starts here */
+.navbar{
+    position: relative;
+    min-height: 190px;
+}
+.nav-logo{
+    text-align: left;
+   position: relative;
+    top: 42px;
+    left: 73px;
+}
+.nav-heading{
+    text-align: left;
+    position: absolute;
+    left: 60px;
+
+}
+.nav-style{
+    visibility: visible;
+    position: absolute;
+    right: 600px;
+    top: 20px;
+}
+.nav-heading h1{
+     font-family: 'Rye', serif;
+     font-size: 2rem;
+}
+[class*="col-4"]{
+    margin-top: 20px;
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+    position: absolute;
+    right: 20px;
+    top: 10%;
+}
+.nav-menu a{
+   padding: 5px 10px;
+   margin: 40px 10px;
+  background-color: transparent;
+}
+.nav-menu a:hover{
+    background: none;
+    color: #FFD932;
+    border-bottom: 2px solid #FFD932 ;
+}
+
+/* navbar deign ends here */
+
+/* profile design starts here */
+
+.top-weather-icon{
+    right: 100px;
+    width: 120px;
+    transition:2s;
+   
+ }
+ .top-weather-icon:hover{
+     transition:2s;
+    width: 140px;
+ }
+.bottom-weather-icon{
+    bottom: 20px;
+    left: 140px;
+    width: 120px;
+    transition:2s;
+   
+ }
+ .bottom-weather-icon:hover{
+     transition:2s;
+     width: 140px;
+ }
+
+ .profile-desc p{
+    font-size: 2rem;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.profile::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* profile design ends here */
+
+
+/* about me design starts here */
+
+.about-me-image img{
+   margin-top: 100px;
+   width: 250px;
+   height: 300px;
+}
+.about-me-desc p{
+    text-align: left;
+}
+
+/* about me design ends here */
+
+/* achivement Contact section design starts here */
+
+.achivements{
+    padding-right: 50px;
+}
+.contact-me button{
+    width: 150px;
+}
+.social-contact{
+    position: relative;
+}
+.icons{
+    position: absolute;
+    margin-top: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    padding: 10px;
+}
+/* achivement Contact section design ends here */
+
+/* footer design starts here */
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+/* footer design ends here */
+
